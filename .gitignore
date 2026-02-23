@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ----------------------------
+# Modeling project additions
+# ----------------------------
+
+# Data folders
+data_raw/*
+data_processed/*
+!data_raw/.gitkeep
+!data_processed/.gitkeep
+
+# Geospatial & large data
+*.parquet
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.cpg
+*.prj
+*.geojson
+
+# Logs
+*.log
